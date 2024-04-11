@@ -1,4 +1,6 @@
-﻿$32_uninstall_bin = "$($env:SystemRoot)\System32\OneDriveSetup.exe"
+##Test##
+ 
+ $32_uninstall_bin = "$($env:SystemRoot)\System32\OneDriveSetup.exe"
 $64_uninstall_bin = "$($env:SystemRoot)\SysWOW64\OneDriveSetup.exe"
 
 $is_64 = (Test-Path $64_uninstall_bin)
